@@ -1,0 +1,165 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: Playfair Display,serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+}
+nav ul li{
+    padding: 0px 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 15px auto;
+    width: 80%;
+    /* background: url("https://cutewallpaper.org/22/anime-boy-headphones-wallpapers/anime-boy-headphones-wallpapers-wallpaper-cave.png"); */
+    /* background: url("https://devtechnosys.com/images/2022/case-study-and-cost-features/cost-features-4.webp"); */
+    background: url("https://media.istockphoto.com/id/484766226/photo/classical-guitar-on-a-dark-background.jpg?s=170667a&w=0&k=20&c=7L1go_4Iis71CmpxZloa-BCXHWJjz6tG7q5lU34Usy8=");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+
+}
+.songItem{
+    height: 45px;
+    display: flex;
+    background-color: white;
+    width: 85%;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 34px;
+}
+.songItem img{
+    height: 40px;
+margin-right: 0px;
+border-radius: 34px;
+
+}
+
+.icons{
+    margin-top: 14px;
+    cursor: pointer;
+}
+#myProgressBar{
+    width:80vw;
+    cursor: pointer;
+
+}
+.fa-sharp fa-solid fa-backward-step{
+    height: 20px;
+    width: 20px;
+}
+.songInfo{
+    position: absolute;
+    left:10vw;
+    margin-top: 25px;
+   
+
+}
+.songInfo img{
+    
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+   
+
+}
+.songInfo p{
+    position: relative;
+    top:10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
